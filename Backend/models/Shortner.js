@@ -8,6 +8,10 @@ const schema = mongoose.Schema({
         type:String,
         required:true,
         unique:true
+    },
+    expiresAt:{
+        type:Date,
+        required:true
     }
 
 },{timestamps:true});
